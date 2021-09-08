@@ -15,7 +15,7 @@
 
 ## Project title 
 
-**코로나 백신접종자 정보공유 커뮤니티**
+**코로나 백신 커뮤니티(CVC, Corona Vaccine Community)**
 
 ## Motivation
 
