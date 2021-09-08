@@ -2,7 +2,8 @@
 
 
 
-<div style="text-align: right">팀장 고경환</div>
+팀장 고경환
+팀원 박재홍, 이화영, 정우엽, 정주은
 
 # Index
 
