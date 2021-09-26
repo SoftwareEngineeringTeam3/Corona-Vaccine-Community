@@ -1,7 +1,6 @@
 #                                         소프트웨어 공학 팀3
 
 
-
 **팀장** 고경환<br/>
 **팀원** 박재홍, 이화영, 정우엽, 정주은
 
@@ -9,9 +8,10 @@
 
 1. Project Title
 2. Motivation
-3. Competitor Analysis
+3. Competitive Technology Analysis
 4. Main Functions
 5. Participants Table
+6. Use Case Diagram
 
 ## Project title 
 
@@ -19,34 +19,40 @@
 
 ## Motivation
 
-현재 코로나 백신 예방접종은 국내 코로나-19 팬데믹 상황을 종식시킬 수 있는 유일한 방법입니다.
-국내에선 코로나 백신 예방접종을 권장하고 있으나 최근 접종자들의 부작용 사례가 많아 국민들이 백신을 맞는 것에 대한 두려움이 크기 때문에 관련 정보에 대해 공유하는 커뮤니티를 통해 사용자들에게 다양한 정보전달이 필요하다고 생각했습니다.
+![img](https://lh6.googleusercontent.com/YJdjSwgyY4YyI8C28-FBw8ChCs4k40VveY7Db1wsIoMA-ZwJdG87plj5shQaKkQ-aUKknxRlKUEnspei5XYOzkS_ffhETGur9bP6A_qM2hHQWk8wTOVlRz89rteDTgqrIM8Df-qYrko=s0)
 
-백신을 실제로 접종한 사람들이 자신들의 경험(부작용, 주의사항 등)을 공유하고 서로 궁금한 질문을 댓글로 달아서 
-백신접종자와 예비 백신접종자 간의 생생한 정보를 서로 공유할 수 있는 커뮤니티를 만들고자 합니다.
+<div style="text-align:center">(출처: https://corona-live.com, 근 6개월간 월별 코로나 확진자 수(좌)</div>
+<div style="text-align:center"> 출처: https://www.who.int/health-topics/coronavirus#tab=tab_2, WHO의 코로나 예방을 위한 백신 접종 권장(우)) </div>
 
-## Competitor Analysis
++ 코로나 확진자 수의 지속적인 증가
++ 백신의 필요도 및 관심도 증가 
 
+![img](https://lh5.googleusercontent.com/X45oD62jFTQxc105iOmJE2rp13mdubfxl9W_NRhH2k9lhVzY6kPQk4P2pquGzN3sAT1Vtfb9Jyw78DC5RQeA9IY8pec1d_c9MTQA8kOlsPkNxn-dKK-AfiIv2JntDJzquYV6LtjWPV8=s0)
 
-본 프로젝트와 유사한 웹사이트가 질병관리청에 존재합니다.
+<div style="text-align:center">(출처: https://youtube.com, "코로나 백신 접종 후기" 검색결과 - 평균 조회수 약 130만회)</div>
 
-하지만 현재 있는 질병관리청의 웹사이트는 백신 접종자에 한해서 "내 상태"만 체크하고 제출하는 형식으로 현재 자신의 상태만 알려주기 때문에 백신접종자와 예비 백신접종자 간의 질의응답이 힘들어서 추가적인 기능구현이 필요하다고 생각했습니다.
++ 백신 접종예정자들의 백신에 대한 호기심과 두려움 증가
 
-![img](https://lh5.googleusercontent.com/wXCzfjP5h8CySg2teOm23O8h8viKVXQnu_-dSLMDmWGxMiuVTdZgYPEDd1sn9L4Z3oje0GgxYDNd6USGXtvTVsXaxQ9Wdb4gxpXxJcoFXVfyJLJts7i3GM9VJ7fL8tUZO_W3g3oxGAM=s0)
+- 백신 관련 정보공유 커뮤니티 필요성 증가
 
-<div style="text-align:center">(출처: 질병관리청 코로나(COVID-19) 백신예방접종 후 건강상태 확인하기 페이지)</div>
+## Competitive Technology Analysis
+
+### Existing product comparison table
+
+<img src="https://lh6.googleusercontent.com/uaaLRKexEzMOufjA87IoyuvkycCYzSzo5L9VE4UtJic81BJhm7DEDLFyHsFLbfAAvSaptAj0qGslC94Mk5_9Ome5HPh9p9cIQecrsxNJsyYelzrhfKXxHQb7ubcTu7rBVtN-UyycEnU=s0" alt="img" style="zoom:67%;" />
 
 
 
 ## Main Functions
 
-이번 프로젝트에서 주로 구현하고자 하는 기능은
+1. 백신 접종완료자들의 정보(백신종류, 기저질환, 복용중인 약 등)를 통해 백신 접종예정자들 개개인에게 적합한 정보습득 가능
+2. 구체적 커뮤니케이션 활성화
+   + 백신 접종완료자(1차/2차), 접종예정자, 전문 의료인 인증을 통해 분류
+   + 댓글/대댓글을 이용해 실시간 소통가능
+   + 좋아요 및 댓글 수를 통해 인기글 상단에 배치
+3. 라이브 톡을 통한 접종완료자와 접종예정자간의 실시간 소통가능
 
-1.	예방접종자와 예비 예방접종자 간의 자유로운 의사소통
-2.	자신의 맞은 백신, 기저질환, 복용중인 약 정보 등을 공유
-3.	1차/2차 예방접종에 대해 긍정/부정
-4.	관련 기사 및 뉴스 실시간 팝업
-5.	우수 게시글, 댓글 상단에 배치해서 많은 사람들의 정보공유 원활
+4. 백신 관련 뉴스 및 기사 실시간 업데이트
 
 
 
@@ -59,3 +65,11 @@
 | 이화영      | FrontEnd Design, Tester    | Python, C, Java, HTML5, CSS             | Boot-Strap, UML, UI/UX   |
 | 정우엽      | Configuration Manager      | Java                                    | Python, DB               |
 | 정주은      | Market Research            | C, Java, Android Studio, HTML5, DB      | Python, DB, UML          |
+
+
+
+# Use Case Diagram (Requirement Eliciation)
+
+![img](https://lh3.googleusercontent.com/eUh23jItFvFJFoZU_7OnSJJZJKJEmsNpb7UYz3UrcThtDQQLaUdVcAvRQHbndjKOz2ehi-dbMpyaup1IA3s6qsFwzus4j1sGL71qXhTvfhupQJCMoisJDMEye1Hjnc162wUGBV_54OA=s0)
+
+※ 질병관리청(KCDC, Korea Centers for Disease Control and Prevention)
