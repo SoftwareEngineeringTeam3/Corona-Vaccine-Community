@@ -90,7 +90,7 @@ Initiated by Vaccination Completion Person
 
 communicates with Vaccination Expectation Person, Medical Advisor
 
-**flow of events:(능동태로 작성할 것 ex. cvc가 ~ 한다.)**
+**flow of events:**
 
 1. Vaccination Completion Person activates "share experience and information" through CVC.
 
@@ -222,7 +222,7 @@ Vaccination Expectation Person can obtain information such as underlying disease
 
 
 
-## 9. Secinario Description(정주은, 정우엽)
+## 9. Secinario Description
 
 ### Scenario name: <u>Get information about current situation: show vaccine-related articles and news</u>
 
