@@ -1,4 +1,4 @@
-#                                         소프트웨어 공학 팀3-3 (**Use Case Diagram 보완:  **include/extend + Use Case Description + Scenario Description + Activity Diagram)
+#                                         소프트웨어 공학 팀3-3 (Use Case Diagram 보완:  include/extend + Use Case Description + Scenario Description + Activity Diagram)
 
 
 
