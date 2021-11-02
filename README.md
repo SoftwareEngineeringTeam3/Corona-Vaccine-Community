@@ -1,4 +1,4 @@
-#                                         소프트웨어 공학 팀3
+#                                         소프트웨어 공학 팀3-3 (**Use Case Diagram 보완:  **include/extend + Use Case Description + Scenario Description + Activity Diagram)
 
 
 
@@ -72,13 +72,13 @@
 
 
 
-## 6. Use Case Diagram (Requirement Eliciation, include/extend 포함)
+## 6. Use Case Diagram (Requirement Eliciation, include/extend 포함)[1저자(고경환) 2저자(이화영)]
 
-![img](https://lh4.googleusercontent.com/EhTvyKsj7fe67btItwTmHEH2P8aoA5XaExYxRoK2UdWN5kTUlj9jWq1tGSLV0Ri-30IRCPiehRPmY-lF5jkO8bMHLI1PlfWI-0TAcSIC-a5GFumfSve3JSx_BpU6plLuuX_dff24i9c=s0)
+![img](https://lh6.googleusercontent.com/EjWEuTcBsaABjWW4xVIfVKXa-rOXcZHv1EnW_Z2lZMMbYQpWquZ26w66YG30ZCoXmZXL_SQifori462gLu7mDRlN_lNPTwUaLJKcjmJdgA8YcZwBwR7Qd0rmuXe6i99HBkYfyUYIOAk)
 
 ※ 질병관리청(KCDC, Korea Centers for Disease Control and Prevention)
 
-## 7. Use Case Description
+## 7. Use Case Description[1저자(이화영), 2저자(고경환)]
 
 ### Description of use case1
 
@@ -178,7 +178,7 @@ verify vaccination by Verification Server
 
 ### Description of use case5
 
-**use case name**: describe underlying disease and medications that they are taking
+**use case name**: describe existing condition
 
 **participation actors**: 
 
@@ -204,25 +204,19 @@ Vaccination Expectation Person can obtain information such as underlying disease
 
 
 
-## 8. Activity Diagram
+## 8. Activity Diagram[1저자(박재홍), 2저자(고경환)]
+
+### Flow of event about "ask and answer question"
+
+![img](https://lh5.googleusercontent.com/7SsH7Q4PQYpeRyaMH0TQra8cHDcuxz2oUbKfpoPsESrqoI0VP18xe_PyQ4Yi_YvnzC9TE1gu7MAbXThvmbSqU2uBuwBlaXCdzVKmmGuQMEHHoMwuCe6qZ7PSnWWqEkjMwFDuNQVyyMk)
 
 
 
-## Fork, Join Node을 활용한 Activity Diagram
-
-![img](https://lh4.googleusercontent.com/omWPpuW_edMo-ii-Sw2jhrCl3kcQ7Dt30bC8vngnpFBP-wPhhdRkXWFiuXAsizz_7Zb5Gy9W8XgrHpZMbET8bTmqVK66h1nNy-QrwGwYbXUiRwrVfsBt6lmS1VNKtdjVTe8ttrgXj24=s0)
-
-## Decision Node를 활용한 Activity Diagram
-
-![img](https://lh4.googleusercontent.com/i2CMWBw6bceiWUbsG9mQ0G78JFTBL770Zzqwl_TisOus4m9mrkqLeiWJ52Mvuei25X7yTB9IlUBWMvXzkNlMY0nLJ1Q6opIMR8TUB_lk7n9DKgIOqOP4m692e3-550NcMJWt1idNMfQ=s0)
-
-## 두 부분을 합친 Activity Diagram
-
-![img](https://lh3.googleusercontent.com/viYOqp3MeVyElFgQQtQTcr_xabi8CBOsH22kivk41myL-w5IhF4SysYv1tUtyffAdSzNA5wNmwC_xFVBMVmIZQM7CPJ9wFUaIuN0UEA2CGh_Dvph7NW8wihcqJHmiY1nbP5TJ0nPSks=s0)
+### Flow of event about "verify vaccination"![img](https://lh4.googleusercontent.com/GW42-L7jOeOQfXOG15Lj-_ALm6OBabSC7MiksoLcHKZIE9N0sfp684VYIY6n89jImhyWXTSYEFAyaLTL_ohTik-TsOEBzuJf8EBf-SnaJzPWfIui0xaqWDydOkr_C3KFpiwDgVC3qNA)
 
 
 
-## 9. Secinario Description
+## 9. Secinario Description[1저자(정우엽, 정주은) 2저자(고경환)]
 
 ### Scenario name: <u>Get information about current situation: show vaccine-related articles and news</u>
 
@@ -262,7 +256,7 @@ Flow of events :
 
 
 
-### Scenario name : <u>Posting after vaccination : share experience and information by writing a post</u>
+### Scenario name : <u>Posting after vaccination : share experience and information</u>
 
 Participating actor instances :
 
