@@ -1,4 +1,4 @@
-#                                         소프트웨어 공학 팀3-3 (Use Case Diagram 보완:  include/extend + Use Case Description + Scenario Description + Activity Diagram)
+#                                         소프트웨어 공학 팀3-3 (**Use Case Diagram 보완:  **include/extend + Use Case Description + Scenario Description + Activity Diagram)
 
 
 
@@ -74,7 +74,7 @@
 
 ## 6. Use Case Diagram (Requirement Eliciation, include/extend 포함)[1저자(고경환) 2저자(이화영)]
 
-![img](https://lh6.googleusercontent.com/EjWEuTcBsaABjWW4xVIfVKXa-rOXcZHv1EnW_Z2lZMMbYQpWquZ26w66YG30ZCoXmZXL_SQifori462gLu7mDRlN_lNPTwUaLJKcjmJdgA8YcZwBwR7Qd0rmuXe6i99HBkYfyUYIOAk)
+![img](https://lh6.googleusercontent.com/SnqHrD8mQuFOlbpCcerv8XMgqmgXQtAWjxkGKgSmgHeJI_8-niIQKQcem1DtPYDyNO9D0HEmbvtt4XjErumlOr3v2KH3aRur6LHtS7B6hRquhMZJbdiRmI5I-Pck68gh0F2-6FPPjsE)
 
 ※ 질병관리청(KCDC, Korea Centers for Disease Control and Prevention)
 
