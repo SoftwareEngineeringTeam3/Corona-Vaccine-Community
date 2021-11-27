@@ -74,7 +74,7 @@
 
 ## 6. Use Case Diagram (Requirement Eliciation, include/extend 포함)[1저자(고경환) 2저자(이화영)]
 
-![img](https://lh6.googleusercontent.com/SnqHrD8mQuFOlbpCcerv8XMgqmgXQtAWjxkGKgSmgHeJI_8-niIQKQcem1DtPYDyNO9D0HEmbvtt4XjErumlOr3v2KH3aRur6LHtS7B6hRquhMZJbdiRmI5I-Pck68gh0F2-6FPPjsE)
+![img](https://lh3.googleusercontent.com/XGt3ir25rKPHSXW0BpPqTvV-hUF6DuTVzVx44MCQgFCWQhp-scGw_lLioy5WlKjcMxTHaWFiauqxkthzAuKf6VFkmGIgyLEWXBTN3W7SRqY7Rw5hmxJ7CWrD_f7jrFGu-dD5GCIAxKE)
 
 ※ 질병관리청(KCDC, Korea Centers for Disease Control and Prevention)
 
@@ -212,7 +212,9 @@ Vaccination Expectation Person can obtain information such as underlying disease
 
 
 
-### Flow of event about "verify vaccination"![img](https://lh4.googleusercontent.com/GW42-L7jOeOQfXOG15Lj-_ALm6OBabSC7MiksoLcHKZIE9N0sfp684VYIY6n89jImhyWXTSYEFAyaLTL_ohTik-TsOEBzuJf8EBf-SnaJzPWfIui0xaqWDydOkr_C3KFpiwDgVC3qNA)
+### Flow of event about "verify vaccination"
+
+![img](https://lh4.googleusercontent.com/DCGPRoZZWim3-t0jU8ehdgcv35Yd_XCoWHp6pQUgA4Dchal5zvfs4KrVIHADCQMW7dJg6flnDlHZLAlz6S-FnIQlxfRjLsMeyI2hUBiSK9cJOuL-du400JZH9FUrUeVTaN1MpRexJlc)
 
 
 
