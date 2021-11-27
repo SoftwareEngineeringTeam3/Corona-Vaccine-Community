@@ -14,5 +14,5 @@
 
 # Class Diagram[1저자(고경환, 정우엽)]
 
-![img](https://lh6.googleusercontent.com/2yOeCPdcWQ-PYCb0cN_pZvQw6UkvqybmkRfIsqWbOTHTRPpaPvmmuT-IGpqC5YWbYMDANTeioIlJpVTv0fw8X1G_iyn-VFI0XUZNhOHwT2liDbvJNVzNvCwYSeomieFUsL71NXWcbSlo)
+![img](https://lh5.googleusercontent.com/1psRbYBLxlyZPCRXxApx5atM910Ag7mdQrCYZ-Gy5kVjeUZORldTF_IOksSseT0GOHPLnOMSJ11uKsaDIhuG0jfkfy15EKYJBopGWVgJZBTaJxwf36XZjmSbnH3zIyqYGtuKaau4ACTl)
 
