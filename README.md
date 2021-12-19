@@ -285,34 +285,23 @@ Flow of events :
 
 
 
-### Scenario name : <u>Ask a question about Pfizer Vaccines: ask a question</u>
+### Scenario name : <u>Ask and Answer a question about Pfizer Vaccines: ask and answer question</u>
 
 Participating actor instances :
 
 - <u>박재홍(Pfizer) : Vaccination Expectation Person</u>
+- <u>정우엽(Pfizer), 고경환(Pfizer) : Vaccination Officials</u>
+- <u>정주은 : Medical Advisor</u>
 
 Flow of events :
 
 1. Before 박재홍 was vaccinated, he posted to know the side effects and necessary things.
 2. Waiting for answer
-
-
-
-### Scenario name : <u>Answer a question about Pfizer Vaccines: answer a question</u>
-
-Participating actor instances :
-
-- <u>정우엽(Pfizer), 고경환(Pfizer) : Vaccination Officials</u>
-- <u>박재홍(Pfizer) : Vaccination Expectation Person</u>
-- <u>정주은 : Medical Advisor</u>
-
-Flow of events :
-
-1. 정주은 looks at the question that posted about Pfizer vaccines by 박재홍.
-2. 정주은 writes a specific answer to 박재홍's question.
-3. 고경환 and 정우엽 write answers to 박재홍's questions based on their experiences.
-4. 박재홍 is checking the comments.
-5. Additionally, 박재홍 collects information using popular posts.
+3. 정주은 looks at the question that posted about Pfizer vaccines by 박재홍.
+4. 정주은 writes a specific answer to 박재홍's question.
+5. 고경환 and 정우엽 write answers to 박재홍's questions based on their experiences.
+6. 박재홍 is checking the comments.
+7. Additionally, 박재홍 collects information using popular posts.
 
 
 
