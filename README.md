@@ -1,6 +1,4 @@
-#                                         소프트웨어 공학 팀3-3 (**Use Case Diagram 보완:  **include/extend + Use Case Description + Scenario Description + Activity Diagram)
-
-
+# 3팀_ 코로나 백신 커뮤니티(CVC, Corona Vaccine Community)_ 최종
 
 **팀장** 고경환<br/>
 **팀원** 박재홍, 이화영, 정우엽, 정주은
@@ -12,10 +10,15 @@
 3. Competitive Technology Analysis
 4. Main Functions
 5. Participants Table
-6. Use Case Diagram (include/extend 포함)
+6. Use Case Diagram
 7. Use Case Description
 8. Activity Diagram
-9. Secinario Description
+9. Scenario Description
+10. Design Goal 우선순위 5개
+11. Sequence Diagram
+12. Class Diagram
+13. Component Diagram
+14. Deployment Diagram
 
 ## 1. Project title 
 
@@ -72,11 +75,13 @@
 
 
 
-## 6. Use Case Diagram (Requirement Eliciation, include/extend 포함)[1저자(고경환) 2저자(이화영)]
+## 6. Use Case Diagram [1저자(고경환) 2저자(이화영)]
 
-![img](https://lh3.googleusercontent.com/XGt3ir25rKPHSXW0BpPqTvV-hUF6DuTVzVx44MCQgFCWQhp-scGw_lLioy5WlKjcMxTHaWFiauqxkthzAuKf6VFkmGIgyLEWXBTN3W7SRqY7Rw5hmxJ7CWrD_f7jrFGu-dD5GCIAxKE)
+![img](https://lh3.googleusercontent.com/_XjEbxCy-AHVud1sO7eDLaN0kl1yU2jZsdYL-4F2LYpU8PXWCH8nlfNLoxdLuFW739uT-Lo2jXivOwMFzhHbXl-9o6oDc3DX3SkmpD6e3cBPZGQLo9R8f53GK37YAZGRg-0A87xqmART)
 
 ※ 질병관리청(KCDC, Korea Centers for Disease Control and Prevention)
+
++ Vaccination Officials(백신접종관계자)와 Vaccination Expectation Person(백신접종예정자)는 "ask and answer question" 하다가 "show vaccine-related articles and news"를 할 수 있습니다.
 
 ## 7. Use Case Description[1저자(이화영), 2저자(고경환)]
 
@@ -86,19 +91,19 @@
 
 **participating actors:**
 
-Initiated by Vaccination Completion Person
+Initiated by Vaccination Officials
 
 communicates with Vaccination Expectation Person, Medical Advisor
 
 **flow of events:**
 
-1. Vaccination Completion Person activates "share experience and information" through CVC.
+1. Vaccination Officials activates "share experience and information" through CVC.
 
-   1-1. CVC recives the form submitted by Vaccination Completion Person and provides a community environment.
+   1-1. CVC receives the form submitted by Vaccination Officials and provides a community environment.
 
 2. Vaccination Expectation Person participate in the community provided by CVC.
 
-**Entry condition:** vaccination Completion Person **** has completed the vaccination certification.
+**Entry condition:** Vaccination Officials **** has completed the vaccination certification.
 
 **Exit condition:** Vaccination Expectation Person get the information they need.
 
@@ -112,19 +117,19 @@ communicates with Vaccination Expectation Person, Medical Advisor
 
 Initiated by  Vaccination Expectation Person
 
-communicates with vaccination Completion Person, Medical Advisor
+communicates with Vaccination Officials, Medical Advisor
 
 **flow of events:**
 
 1. Vaccination Expectation Person activates "ask and answer question" through CVC.
 
-   1-1. CVC forwards the form that submitted to CVC by Vaccination Expectation Person to Vaccination Completion Person.
+   1-1. CVC forwards the form that submitted to CVC by Vaccination Expectation Person to Vaccination Officials.
 
-2. vaccination Completion Person answers the questions of the prospective Vaccination Expectation Person , and additional mutual questions and answers are made.
+2. Vaccination Officials answers the questions of the prospective Vaccination Expectation Person , and additional mutual questions and answers are made.
 
 3. Vaccination Expectation Person get the information they need.
 
-**Entry condition:** Vaccination Completion Person has completed the vaccination certification.
+**Entry condition:** Vaccination Officials has completed the vaccination certification.
 
 **Exit condition:** Vaccination Expectation Person get the information they need.
 
@@ -158,21 +163,21 @@ KCDC API, Vaccination Expectation Person
 
 **participation actors**: 
 
-initiated by Vaccination Completion Person
+initiated by Vaccination Officials
 
 verify vaccination by Verification Server
 
 **flow of events**:
 
-1. Vaccination Completion Person enters his or her information to confirm his or her vaccination
+1. Vaccination Officials enters his or her information to confirm his or her vaccination
 
-   1-1. .CVC delivers information on the to Vaccination Completion Person Verification Server.
+   1-1. .CVC delivers information on the to Vaccination Officials Verification Server.
 
-2. Verification Server recognizes the information of the Vaccination Completion Person provided by CVC, It gives approval that the vaccination has been completed.
+2. Verification Server recognizes the information of the Vaccination Officials provided by CVC, It gives approval that the vaccination has been completed.
 
-**Entry condition:** Vaccination Completion Person enters their vaccination information.
+**Entry condition:** Vaccination Officials enters their vaccination information.
 
-**Exit condition:** Vaccination Completion Person is certified by Verification Server.
+**Exit condition:** Vaccination Officials is certified by Verification Server.
 
 
 
@@ -182,21 +187,21 @@ verify vaccination by Verification Server
 
 **participation actors**: 
 
-initiated by Vaccination Completion Person
+initiated by Vaccination Officials
 
 Vaccination Expectation Person get information
 
 **flow of events:**
 
-1. Vaccination Completion Person enters information such as what underlying diseases he or she is suffering from and what medicines he or she took.
+1. Vaccination Officials enters information such as what underlying diseases he or she is suffering from and what medicines he or she took.
 
-   1-1. CVC delivers information of Vaccination Completion Person to the Vacation Expection person.
+   1-1. CVC delivers information of Vaccination Officials to the Vacation Expection person.
 
 2. The Vacation Expression Person obtains information such as the underlying diseases and medication of the Vacation Completion Person provided by CVC and compares it with his or her case.
 
 **Entry condition:**
 
-Vaccination Completion Person enters information such as his or her underlying disease and taking medicine.
+Vaccination Officials enters information such as his or her underlying disease and taking medicine.
 
 **Exit condition:**
 
@@ -208,15 +213,17 @@ Vaccination Expectation Person can obtain information such as underlying disease
 
 ### Flow of event about "ask and answer question"
 
-![img](https://lh5.googleusercontent.com/7SsH7Q4PQYpeRyaMH0TQra8cHDcuxz2oUbKfpoPsESrqoI0VP18xe_PyQ4Yi_YvnzC9TE1gu7MAbXThvmbSqU2uBuwBlaXCdzVKmmGuQMEHHoMwuCe6qZ7PSnWWqEkjMwFDuNQVyyMk)
+![img](https://lh4.googleusercontent.com/3IGxeR2Nxi5Oedp8Sju2pobvJK6aGp96VMvdZdv3gH21aFSlSuGUzTtamNi8wX-HIGEDh7g39ufZ1VLJq7PEmaKQAxh5enRVBmLJdwj27Qmry-TBNJrjKoDQTsyj4a2x4dE5e-D72Prb)
 
 
 
 ### Flow of event about "verify vaccination"
 
-![img](https://lh4.googleusercontent.com/DCGPRoZZWim3-t0jU8ehdgcv35Yd_XCoWHp6pQUgA4Dchal5zvfs4KrVIHADCQMW7dJg6flnDlHZLAlz6S-FnIQlxfRjLsMeyI2hUBiSK9cJOuL-du400JZH9FUrUeVTaN1MpRexJlc)
+![img](https://lh3.googleusercontent.com/4kZno2W0NOI50a5Jjuoet1ZLyDCfCO0zcTZbJ1AJm55zR0a5u-Ah16nQE6UwR47P7zi9DbcbPsjaYQ79oSXDufY8sRl1C4qp0TQGAMU3hMqrathecC0Zi_s_SNAwypoILxFNvEC1oU1H)
 
-
+- vaccination officials가 CVC에 참여하면서 간단한 정보(ID, 몇 차 백신까지 맞았는지, 어떤 종류의 백신을 맞았는지)를 입력을 한다.
+- 입력한 정보를 토대로 인증을 요청하고 서버에서 입력된 정보를 토대로 1차인지 2차인지 구별해준다.
+- 위 3가지 과정이 수행되고 난 후에는 인증 확인이 되고 활동이 마무리된다.
 
 ## 9. Secinario Description[1저자(정우엽, 정주은) 2저자(고경환)]
 
@@ -224,7 +231,7 @@ Vaccination Expectation Person can obtain information such as underlying disease
 
 Participating actor instances :
 
-- <u>정우엽(Pfizer) : Vaccination Completion Person</u>
+- <u>정우엽(Pfizer) : Vaccination Officials</u>
 - KCDC API
 
 Flow of events :
@@ -243,7 +250,7 @@ Flow of events :
 
 Participating actor instances :
 
-- <u>정우엽(Pfizer) : Vaccination Completion Person.</u>
+- <u>정우엽(Pfizer) : Vaccination Officials.</u>
 - <u>정주은 : Medical Advisor</u>
 - <u>박재홍 : Vaccination Expectation Person</u>
 - Verification Server
@@ -262,7 +269,7 @@ Flow of events :
 
 Participating actor instances :
 
-- <u>정우엽(Pfizer), 고경환(Pfizer), 이화영(AZ) : Vaccination Completion Person</u>
+- <u>정우엽(Pfizer), 고경환(Pfizer), 이화영(AZ) : Vaccination Officials</u>
 - <u>박재홍 : Vaccination Expectation Person</u>
 
 Flow of events :
@@ -295,7 +302,7 @@ Flow of events :
 
 Participating actor instances :
 
-- <u>정우엽(Pfizer), 고경환(Pfizer) : Vaccination Completion Person</u>
+- <u>정우엽(Pfizer), 고경환(Pfizer) : Vaccination Officials</u>
 - <u>박재홍(Pfizer) : Vaccination Expectation Person</u>
 - <u>정주은 : Medical Advisor</u>
 
@@ -306,3 +313,70 @@ Flow of events :
 3. 고경환 and 정우엽 write answers to 박재홍's questions based on their experiences.
 4. 박재홍 is checking the comments.
 5. Additionally, 박재홍 collects information using popular posts.
+
+
+
+## 10. Design Goal 우선순위 5개
+
+
+
+1. **Availability(정주은)**
+
+CVC 가용 시간이 92% 이상이여야 한다. 따라서 하루중 접속 불가능한 시간은 24×0.08=1.92 이내이다. 따라서 사용률이 적은 새벽 시간인 2시-4시를 이용해 2시간 내로 업데이트 함으로써 CVC를 사용할 수 있는 비율을 높인다.
+
+2. **Security(박재홍)**
+
+백신접종인증을 위해 주민번호, 전화번호와 같은 개인정보가 들어가기 때문에 이러한 개인정보를 보호하기 위해 100%에 가까운 보안을 유지한다.
+
+3. **Usability(이화영)**
+
+10대에서 60대까지의 80%이상의 사용자는 물론 70대 이상의 사용자들도 추가적인 메뉴얼 없이 백신별 카테고리화를 하여 쉽게 이해해 사용할 수 있도록 해야한다.
+
+4. **Response time(고경환)**
+
+최신 코로나 정보를 질병관리청 서버로 부터 빠르게 받아와서 0.01초 미만의 지연속도로 사용자에게 정보를 제공한다.
+
+5. **Memory(정우엽)**
+
+데이터 베이스의 용량은 데이터 베이스에 저장될 용량과 데이터베이스 설치 및 관리를 위한 시스템 용량을 합해, 테이블 용량을 모두 더한 값의 40%를 추가로 하여 산정하도록 한다. 이용자의 처음 사용 빈도를 고려하여 편성하도록 한다. (초기 2TB 이내)
+
+## 11. Sequence Diagram[1저자(이화영, 정주은)]
+
+
+
+### Use Case Name: ask and answer question
+
+![img](https://lh6.googleusercontent.com/U7xC12N4qW0DkZcAMJtjz0cdgbODvOWTWF8UKEaMk4Cfe5irppr2yvzciX2NkJuyCiwcVFuyo2WcAOJN8Aj8StcUJDzRkCGl0iO03DmTEgTHfg2NnFUQbP7YEF-PjwHzxofIMMVkv39K)
+
+
+
+### Use Case Name: verify vaccination
+
+![img](https://lh5.googleusercontent.com/msEJxtq0p6aX837QHNu277Xnq-CVcdMadn2cCAXJKmmmu0TjYem6DJsE6bFckKY38PatJ_U7dOi5Ax8UAbdxWGvx-c7Bpd-25wBqz9wOg6FlAXGBdhcT4Vo74-NrPLN4Jn_vl0eQeXca)
+
+
+
+### 12. Class Diagram[1저자(고경환, 정우엽)]
+
+![img](https://lh4.googleusercontent.com/WkQcw6GRSZRIoZ7mjw7t7fm0nJFmcGoHBwixsRsD1TRb4IlbQfmzZshy6hwnWLUC_lPME7vTWSD-JIuC7Dj4ud5ASAjxNdVpJRvcK5qFdO0mtRx6zTuhP9vJB45TBlfE54naMuAxlFfC)
+
+## 13. Component Diagram
+
+1. VerficiationSubSystem**[1저자 (정주은) 2저자 (박재홍)]**
+2. Q&A SubSystem**[1저자 (박재홍) 2저자 (고경환)]**
+3. ArticleSubSystem**[1저자(이화영) 2저자 (박재홍)]**
+
+![img](https://lh4.googleusercontent.com/xeots-qqJGRy0qsWdJ8YtZHQr-sU2DxUaZoCuAthJENyRLBkkQQjC5fKuQGvS4VnLUd2_Q6SRsVNg7YCYfh-VOBoXPcP7fnUlqbqtaj0wCfjLqIcJwPvceQ67RZ2a5eGSY1DvtYvBDZM)
+
+※ KCDC API: 질병관리청 API
+
++ Coupling을 줄이기 위해 Storage를 도입했고,
+  Persistent Data를 저장및 관리하기위해 Repository Architectural Style를 사용했습니다.
+
+## 14. Deployment Diagram[1저자(고경환, 정우엽)]
+
+![img](https://lh5.googleusercontent.com/DHO80SHLA6M9l7s91b9_j-PRq1WWx2d9rJeODVUa2ojsTOZ-CFyqKqIzsIYoNmmuZVRf7t7csVzpPiJqLd81LrJ-H-WrV0fj3c2ZufrQKub7FwmcGW5L6v-h1qJzJyBgsSiKW-bcl2Ih)
+
++ COOV라는 백신인증 관리 앱이 block chain network상에서 작동됩니다. 이곳에 배포할 것 이므로 위와 같이 다이어그램으로 표현했습니다.
+
++ KCDC는 질병관리청을 의미합니다.
