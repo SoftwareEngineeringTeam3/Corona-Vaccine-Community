@@ -364,7 +364,7 @@ CVC 가용 시간이 92% 이상이여야 한다. 따라서 하루중 접속 불�
 
 ## 14. Deployment Diagram[1저자(고경환, 정우엽)]
 
-![img](https://lh5.googleusercontent.com/DHO80SHLA6M9l7s91b9_j-PRq1WWx2d9rJeODVUa2ojsTOZ-CFyqKqIzsIYoNmmuZVRf7t7csVzpPiJqLd81LrJ-H-WrV0fj3c2ZufrQKub7FwmcGW5L6v-h1qJzJyBgsSiKW-bcl2Ih)
+![img](https://lh6.googleusercontent.com/_x_YYggJoSXwH0FPmxIc6SevtEAJodm2qTgr7WivPjFX0m_5a2LtrVVfckgTTDnKo7ET6Fx-G4g5xAVT0br-htFulvG84qdXj01-QN0ivrg-4M2d6D0xYNZJ8ebnPQ0vZHerztbaRoPc)
 
 + COOV라는 백신인증 관리 앱이 block chain network상에서 작동됩니다. 이곳에 배포할 것 이므로 위와 같이 다이어그램으로 표현했습니다.
 
