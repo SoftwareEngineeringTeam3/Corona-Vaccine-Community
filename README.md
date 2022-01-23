@@ -1,4 +1,4 @@
-# 3팀_ 코로나 백신 커뮤니티(CVC, Corona Vaccine Community)_ 최종
+# 코로나 백신 커뮤니티(CVC, Corona Vaccine Community)
 
 **팀장** 고경환<br/>
 **팀원** 박재홍, 이화영, 정우엽, 정주은
