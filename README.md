@@ -351,9 +351,9 @@ CVC 가용 시간이 92% 이상이여야 한다. 따라서 하루중 접속 불�
 
 ## 13. Component Diagram
 
-1. VerficiationSubSystem**[1저자 (정주은) 2저자 (박재홍)]**
-2. Q&A SubSystem**[1저자 (박재홍) 2저자 (고경환)]**
-3. ArticleSubSystem**[1저자(이화영) 2저자 (박재홍)]**
+1. VerficiationSubSystem **[1저자 (정주은) 2저자 (박재홍)]**
+2. Q&A SubSystem **[1저자 (박재홍) 2저자 (고경환)]**
+3. ArticleSubSystem **[1저자(이화영) 2저자 (박재홍)]**
 
 ![img](https://lh4.googleusercontent.com/xeots-qqJGRy0qsWdJ8YtZHQr-sU2DxUaZoCuAthJENyRLBkkQQjC5fKuQGvS4VnLUd2_Q6SRsVNg7YCYfh-VOBoXPcP7fnUlqbqtaj0wCfjLqIcJwPvceQ67RZ2a5eGSY1DvtYvBDZM)
 
